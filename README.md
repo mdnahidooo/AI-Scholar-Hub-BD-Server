@@ -1,22 +1,22 @@
-# 🎓 ScholarBD – Scholarship Finder Bangladesh
+# 🎓 AI Scholarship Advisor Agent
 
-ScholarBD is a modern full-stack scholarship discovery platform designed to help Bangladeshi students find local and international scholarship opportunities in one place.
+AI Scholarship Advisor Agent is a production-ready Full Stack Agentic AI application designed to help students discover the most suitable scholarships based on their academic background, study preferences, budget, destination country, and career goals.
 
-Users can search, filter, save, and explore scholarships based on country, degree level, funding type, and deadlines. Administrators can manage scholarship listings, update deadlines, monitor platform analytics, and ensure all opportunities remain accurate and up-to-date.
+The platform combines a powerful **Recommendation Engine** with an **AI Chat Assistant** to provide personalized scholarship suggestions, intelligent guidance, eligibility analysis, and actionable next steps for applications.
+
+Built using modern web technologies, Agentic AI workflows, and Large Language Models (LLMs), this project demonstrates full-stack development, AI integration, authentication, database management, secure APIs, and professional UI/UX design.
 
 ---
 
 ## 🌐 Live URL
 
-👉 https://scholar-hub-bd-client.vercel.app/
+👉 https://ai-scholar-hub-bd-client.vercel.app/
 
 ---
 
 ## 🎯 Project Goal
 
-The goal of **ScholarBD** is to create a centralized scholarship platform where students can easily discover verified scholarship opportunities without searching through multiple websites and social media groups.
-
-The platform aims to simplify scholarship exploration, increase accessibility to educational opportunities, and provide a user-friendly experience through advanced filtering, analytics, and personalized scholarship management.
+The goal of **AI Scholarship Advisor Agent** is to simplify the scholarship discovery process for students by using Agentic AI workflows. Instead of manually searching through hundreds of scholarship websites, students can simply describe their academic profile and study goals, and the AI agent will analyze their preferences, search relevant scholarship opportunities, rank the results, and provide personalized recommendations with application guidance.
 
 ---
 
@@ -24,125 +24,205 @@ The platform aims to simplify scholarship exploration, increase accessibility to
 
 ### Frontend
 - Next.js
-- React.js
-- TypeScript
 - Tailwind CSS
 - HeroUI
 - Framer Motion
-- Recharts
-- Axios
 - React Hook Form
-- Zod
+- React Toastify
 
 ### Backend
 - Node.js
 - Express.js
-- TypeScript
-- MongoDB Native Driver
-- JWT
+- MongoDB
+- JWT Authentication
+
+### AI Integration
+- Google Gemini API
+- Agentic AI Workflow
+- Prompt Engineering
+- Tool Calling System
 
 ### Authentication
-- Better Auth
-- Google Authentication (Optional)
-- Role-Based Access Control (RBAC)
+- Better Auth / JWT
+- Google Authentication
+
+
+---
+
+## 🤖 Agentic AI Workflow
+
+The application follows a multi-step Agentic AI process:
+
+```text
+User Query
+    ↓
+LLM Extracts Preferences
+    ↓
+Scholarship Search Tool
+    ↓
+Fetch Matching Scholarships
+    ↓
+Rank Results
+    ↓
+Generate Explanation
+    ↓
+Provide Next Steps
+```
+
+### Example Query
+
+```text
+I am a Bangladeshi CSE student.
+
+CGPA: 3.75
+
+Budget: $5000
+
+I want to study Masters in Canada.
+
+Suggest scholarships.
+```
+
+### Example AI Response
+
+```text
+Recommended Scholarship:
+
+University of Toronto Graduate Scholarship
+
+Reason:
+
+✓ Masters level
+✓ Canada
+✓ Full funded
+✓ Tuition within your budget
+
+Next Step:
+
+Apply before July 25
+```
 
 ---
 
 ## ✨ Key Features
 
-### 🎓 Scholarship Discovery Platform
-- Explore scholarships from multiple countries
-- Browse undergraduate, master's, and PhD opportunities
-- View detailed scholarship information
-- Access official application links
+### 🎓 AI Scholarship Recommendation Engine
+
+- Personalized scholarship matching
+- AI-powered eligibility analysis
+- Country-based recommendations
+- Budget-aware suggestions
+- Degree-level filtering
+- Deadline tracking
+
+### 🤖 AI Chat Assistant
+
+- Natural language conversations
+- Student profile analysis
+- Scholarship guidance
+- Career counseling support
+- Application roadmap generation
 
 ### 🔍 Advanced Search & Filtering
-- Search by scholarship title
-- Search by university name
-- Search by country
-- Filter by degree level
+
+- Search scholarships
 - Filter by country
+- Filter by degree level
+- Filter by funding type
 - Filter by deadline
-- Server-side filtering and sorting
+- Sort by relevance
 
-### ❤️ Personalized User Experience
-- Save favorite scholarships
-- Manage saved scholarships
-- View scholarship details
-- Track upcoming application deadlines
+### 📊 Smart Ranking System
 
-### 📊 Analytics Dashboard
-- Scholarship statistics
-- Country-wise scholarship distribution
-- Degree-level scholarship distribution
-- Platform insights and analytics
+- Scholarship scoring algorithm
+- Eligibility matching
+- Budget compatibility analysis
+- Academic profile evaluation
 
 ---
 
 ## 🏠 Main Pages
 
-- Home Page
-- Scholarships Page
-- Scholarship Details Page
-- About Page
-- Contact Page
-- Login Page
-- Registration Page
-- Dashboard
+### Home Page
+
+- Hero Section
+- AI Chat Interface
+- Featured Scholarships
+- Popular Destinations
+- Success Stories
+- Why Choose Us Section
+
+### Scholarship Search Page
+
+- Scholarship Listings
+- Filters & Search
+- Scholarship Cards
+- Pagination
+
+### Scholarship Details Page
+
+- Full Scholarship Information
+- Eligibility Criteria
+- Funding Details
+- Application Deadlines
+- Application Links
+
+### AI Advisor Page
+
+- Interactive Chat Assistant
+- Personalized Recommendations
+- Application Suggestions
 
 ---
 
-## 👤 User Dashboard Features
+## 👤 User Dashboard
+
+### Dashboard Features
 
 - Saved Scholarships
+- Recommendation History
+- Application Tracker
 - Profile Management
-- Scholarship Tracking
-- Account Settings
+
+### Profile Management
+
+- Academic Information
+- Preferred Countries
+- Degree Preferences
+- Budget Settings
 
 ---
 
-## 🛡️ Admin Dashboard Features
+## 🔐 Authentication Features
 
-- Add Scholarship
-- Update Scholarship
-- Delete Scholarship
-- Manage Scholarships
-- Manage Users
-- View Analytics
-- Monitor Active & Expired Scholarships
+- Email & Password Login
+- Google Authentication
+- Secure JWT Authentication
+- Protected Routes
+- Persistent Login Sessions
 
 ---
 
-## 🔐 Role-Based Access Control
+## 📊 AI Features
 
-### User
-- Browse scholarships
-- Search scholarships
-- Save scholarships
-- View details
-- Manage profile
+### Prompt Engineering
 
-### Admin
-- Add scholarships
-- Update scholarships
-- Delete scholarships
-- Manage users
-- Access analytics dashboard
+- Dynamic prompt generation
+- Context-aware responses
+- Structured recommendation outputs
 
----
+### Tool Calling
 
-## 📊 Advanced Features
+- Scholarship Search Tool
+- Ranking Tool
+- Recommendation Tool
 
-- JWT Protected APIs
-- Better Auth Authentication
-- Role-Based Authorization
-- Scholarship Bookmark System
-- Backend Search & Filtering
-- Backend Sorting
-- Pagination System
-- Analytics Dashboard
-- Scholarship Statistics Visualization
-- Deadline Tracking System
+### Recommendation Engine
+
+- Preference extraction
+- Scholarship matching
+- Result ranking
+- Personalized reasoning
 
 ---
 
@@ -158,77 +238,13 @@ Fully optimized for:
 
 ## 🛠️ Additional Features
 
-- Loading Skeleton UI
-- Custom Error Handling
+- Loading Skeletons
+- Error Handling
 - 404 Not Found Page
-- Protected Routes
-- Responsive Dashboard Layout
+- Responsive Dashboard
 - Framer Motion Animations
 - Toast Notifications
 - Secure Environment Variables
-- SEO-Friendly Pages
-
----
-
-## 📈 Dashboard Analytics
-
-### Admin Analytics
-
-- Total Scholarships
-- Active Scholarships
-- Expired Scholarships
-- Total Users
-
-### Charts
-
-- Scholarships by Country
-- Scholarships by Degree Level
-- Monthly Scholarship Growth
-
----
-
-## 🗄️ Database Collections
-
-### Users
-
-```json
-{
-  "_id": "",
-  "name": "",
-  "email": "",
-  "role": "user",
-  "image": "",
-  "createdAt": ""
-}
-```
-
-### Scholarships
-
-```json
-{
-  "_id": "",
-  "title": "",
-  "university": "",
-  "country": "",
-  "level": "",
-  "amount": "",
-  "deadline": "",
-  "description": "",
-  "image": "",
-  "applicationLink": "",
-  "createdAt": ""
-}
-```
-
-### Saved Scholarships
-
-```json
-{
-  "userId": "",
-  "scholarshipId": "",
-  "savedAt": ""
-}
-```
 
 ---
 
@@ -236,57 +252,64 @@ Fully optimized for:
 
 ### Frontend
 
-- react-hook-form
-- zod
-- framer-motion
-- recharts
-- react-icons
 - react-toastify
-- swiper
+- framer-motion
+- react-icons
+- axios
+- react-hook-form
+- date-fns
 
 ### Backend
 
 - express
-- mongodb
+- mongoose
 - jsonwebtoken
+- bcryptjs
 - cookie-parser
 - cors
 - dotenv
 
----
+### AI
 
-### User Credentials
-
-- 👤 User Email: user@gmail.com
-- 🔑 User Password: User#100
-
----
-
-## 📬 All Links:
-
-<!-- - 👨‍💼 **Admin Email:** admin@gmail.com
-- 🔑 **Admin Password: Admin123 -->
-
-- 🌐 **Front-End Live Link:** https://scholar-hub-bd-client.vercel.app/
-
-- 🌐 **Back-End Live Link:** https://scholar-hub-bd-server.vercel.app/
-
-- 💻 **Client Repository:** https://github.com/mdnahidooo/scholar-hub-bd-client
-
-- 🖥️ **Server Repository:** https://github.com/mdnahidooo/scholar-hub-bd-server
+- @google/genai
+- ai-sdk
+- zod
 
 ---
 
-## 🎯 Future Improvements
+## 🔒 Environment Variables
 
-- Admin Dashboard
-- Scholarship Recommendation System
-- Email Deadline Reminders
-- Scholarship Review System
-- AI-Powered Scholarship Suggestions
-- Scholarship Comparison Feature
-- Application Progress Tracking
+```env
+MONGODB_URI=your_mongodb_connection_string
+
+JWT_SECRET=your_jwt_secret
+
+GEMINI_API_KEY=your_gemini_api_key
+
+NEXT_PUBLIC_API_URL=your_backend_url
+```
 
 ---
 
-### Made with ❤️ for students seeking educational opportunities worldwide.
+## 🚀 Future Enhancements
+
+- Multi-Agent Architecture
+- University Recommendation Agent
+- Visa Guidance Agent
+- SOP Writing Agent
+- Scholarship Deadline Reminder Agent
+- Email Notifications
+- Application Submission Tracking
+
+---
+
+## 📬 Submission
+
+- 🌐 **Live Link:** https://ai-scholar-hub-bd-client.vercel.app/
+- 🌐 **Live Link(Server):** https://ai-scholar-hub-bd-server.vercel.app/
+
+- 💻 **Client Repository:** https://github.com/mdnahidooo/AI-Scholar-Hub-BD-Client
+
+- 🖥️ **Server Repository:** https://github.com/mdnahidooo/AI-Scholar-Hub-BD-Server
+
+---
