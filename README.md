@@ -174,7 +174,7 @@ Apply before July 25
 - Application Suggestions
 
 ---
-
+<!-- 
 ## 👤 User Dashboard
 
 ### Dashboard Features
@@ -191,7 +191,7 @@ Apply before July 25
 - Degree Preferences
 - Budget Settings
 
----
+--- -->
 
 ## 🔐 Authentication Features
 
@@ -211,11 +211,7 @@ Apply before July 25
 - Context-aware responses
 - Structured recommendation outputs
 
-### Tool Calling
 
-- Scholarship Search Tool
-- Ranking Tool
-- Recommendation Tool
 
 ### Recommendation Engine
 
@@ -277,19 +273,7 @@ Fully optimized for:
 
 ---
 
-## 🔒 Environment Variables
 
-```env
-MONGODB_URI=your_mongodb_connection_string
-
-JWT_SECRET=your_jwt_secret
-
-GEMINI_API_KEY=your_gemini_api_key
-
-NEXT_PUBLIC_API_URL=your_backend_url
-```
-
----
 
 ## 🚀 Future Enhancements
 
@@ -303,7 +287,7 @@ NEXT_PUBLIC_API_URL=your_backend_url
 
 ---
 
-## 📬 Submission
+## 📬 Project Links:
 
 - 🌐 **Live Link:** https://ai-scholar-hub-bd-client.vercel.app/
 - 🌐 **Live Link(Server):** https://ai-scholar-hub-bd-server.vercel.app/
